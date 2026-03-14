@@ -3,25 +3,103 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Maricaua Recicla Eletrônicos – Recuperação de Celulares Antigos</title>
-  <meta name="description" content="Projeto de recuperação e reaproveitamento de celulares antigos em Belém–PA. Arrecadamos aparelhos por doação ou por valor estimado e conscientizamos sobre lixo eletrônico." />
+  <title>Reciclagem de Celulares em Belém – Maricaua Recicla Eletrônicos</title>
+  <meta name="description" content="Recuperamos e reaproveitamos celulares antigos em Belém–PA. Doações, compra, conserto e logística reversa certificada. Dê um novo ciclo de vida ao seu aparelho.">
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#18a957" />
+  <!-- Substitua pela URL final do seu domínio -->
+  <link rel="canonical" href="https://seusite.com" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Maricaua Recicla – Recuperação de Celulares em Belém" />
+  <meta property="og:description" content="Damos novo ciclo de vida a celulares antigos. Doe, venda ou descarte corretamente. Atendimento em Belém–PA." />
+  <meta property="og:image" content="https://seusite.com/assets/recuperados.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seusite.com" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maricaua Recicla – Recuperação de Celulares em Belém" />
+  <meta name="twitter:description" content="Damos novo ciclo de vida a celulares antigos em Belém–PA. Doe, venda ou descarte corretamente." />
+  <meta name="twitter:image" content="https://seusite.com/assets/recuperados.jpg" />
+
+  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="assets/logo.jpg" />
+
+  <!-- Structured Data: LocalBusiness (ajuste a URL/endereços conforme necessário) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Maricaua Recicla Eletrônicos",
+    "description": "Recuperação, reaproveitamento e logística reversa de celulares antigos em Belém–PA.",
+    "url": "https://seusite.com",
+    "logo": "https://seusite.com/assets/logo.jpg",
+    "image": "https://seusite.com/assets/recuperados.jpg",
+    "telephone": "+55-91-8545-6734",
+    "areaServed": "BR-PA",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Belém",
+      "addressRegion": "PA",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/recicla.maricaua/"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que posso doar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Aceitamos celulares antigos, carregadores, cabos e baterias."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vocês pagam por celulares antigos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, avaliamos o aparelho e oferecemos um valor justo conforme o estado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que acontece com celulares irrecuperáveis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "São destinados à logística reversa certificada."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="topbar">
     <div class="container">
-      <img src="assets/logo.jpg" alt="Logo Maricaua Recicla Eletrônicos" class="logo" />
-      <nav class="nav">
+      <img src="assets/logo.jpg" alt="Logo do projeto Maricaua Recicla Eletrônicos" class="logo" />
+      <nav class="nav" aria-label="Navegação principal">
         <a href="#sobre">Sobre</a>
         <a href="#como-funciona">Como funciona</a>
         <a href="#impacto">Lixo eletrônico</a>
+        <a href="#faq">FAQ</a>
         <a href="#galeria">Galeria</a>
       </nav>
-      <a class="btn primary top-cta" href="https://api.whatsapp.com/send?phone=559185456734&text=Olá!%20Quero%20falar%20sobre%20celulares%20antigos." target="_blank" rel="noopener">Fale no WhatsApp</a>
+      <a class="btn primary top-cta" href="https://api.whatsapp.com/send?phone=559185456734&text=Ol%C3%A1!%20Quero%20falar%20sobre%20celulares%20antigos." target="_blank" rel="noopener noreferrer">Fale no WhatsApp</a>
     </div>
   </header>
 
@@ -29,14 +107,14 @@
     <div class="container">
       <div class="hero-text">
         <h1>Recuperamos celulares antigos e damos <span class="highlight">novo ciclo de vida</span></h1>
-        <p>O <strong>Maricaua Recicla Eletrônicos</strong> conserta, reaproveita peças e encaminha o descarte correto do que não pode ser recuperado. Você pode <strong>doar</strong> seu aparelho antigo ou <strong>vender</strong> por um valor justo.</p>
+        <p>O <strong>Maricaua Recicla Eletrônicos</strong> conserta, reaproveita peças e encaminha o descarte correto do que não pode ser recuperado em <strong>Belém–PA</strong>. Você pode <strong>doar</strong> seu aparelho antigo ou <strong>vender</strong> por um valor justo.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="https://api.whatsapp.com/send?phone=559185456734&text=Tenho%20um%20celular%20antigo%20para%20doar%20ou%20vender" target="_blank" rel="noopener">Quero doar ou vender</a>
+          <a class="btn primary" href="https://api.whatsapp.com/send?phone=559185456734&text=Tenho%20um%20celular%20antigo%20para%20doar%20ou%20vender" target="_blank" rel="noopener noreferrer">Quero doar ou vender</a>
           <a class="btn ghost" href="#impacto">Por que isso importa?</a>
         </div>
       </div>
       <div class="hero-media">
-        <img src="assets/recuperados.jpg" alt="Alguns celulares recuperados" />
+        <img src="assets/recuperados.jpg" alt="Celulares antigos recuperados e prontos para reuso pelo projeto Maricaua Recicla" />
       </div>
     </div>
   </section>
@@ -44,8 +122,8 @@
   <section id="sobre" class="section">
     <div class="container two-col">
       <div>
-        <h2>Sobre o projeto</h2>
-        <p>Nascentes da Amazônia urbana merecem menos lixo e mais reuso. Atuamos em Belém–PA resgatando celulares que iriam para a gaveta ou para o lixo, realizando limpeza, troca de componentes, testes de bateria e atualização de software quando possível. O que volta a funcionar é encaminhado para <em>reuso solidário</em> ou comercialização acessível; o restante vira fonte de peças ou é destinado a <strong>logística reversa</strong> certificada.</p>
+        <h2>Reciclagem de celulares em Belém – Sobre o projeto</h2>
+        <p>Nascentes da Amazônia urbana merecem menos lixo e mais reuso. Atuamos em Belém–PA resgatando celulares que iriam para a gaveta ou para o lixo, realizando limpeza, troca de componentes, testes de bateria e atualização de software quando possível. O que volta a funcionar é encaminhado para <em>reuso solidário</em> ou comercialização acessível; o restante vira fonte de peças ou é destinado à <strong>logística reversa</strong> certificada.</p>
       </div>
       <aside class="card">
         <h3>Como contribuir</h3>
@@ -54,14 +132,14 @@
           <li>Ou solicite avaliação para receber um <strong>valor estimado</strong>.</li>
           <li>Cabos, baterias e carregadores também são bem-vindos.</li>
         </ul>
-        <a class="btn full" href="https://api.whatsapp.com/send?phone=559185456734&text=Quero%20contribuir%20com%20o%20Maricaua%20Recicla" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn full" href="https://api.whatsapp.com/send?phone=559185456734&text=Quero%20contribuir%20com%20o%20Maricaua%20Recicla" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
       </aside>
     </div>
   </section>
 
   <section id="como-funciona" class="section alt">
     <div class="container">
-      <h2>Como funciona</h2>
+      <h2>Como recuperamos celulares antigos</h2>
       <div class="steps">
         <div class="step"><span class="num">1</span><h4>Coleta</h4><p>Buscamos ou recebemos o aparelho e registramos o estado.</p></div>
         <div class="step"><span class="num">2</span><h4>Diagnóstico</h4><p>Avaliamos bateria, tela, placa e software para decidir entre reparo, reaproveitamento de peças ou descarte.</p></div>
@@ -73,7 +151,7 @@
 
   <section id="impacto" class="section">
     <div class="container">
-      <h2>Lixo eletrônico: por que se importar?</h2>
+      <h2>Por que reciclar celulares? Impactos do lixo eletrônico</h2>
       <p>O descarte inadequado de celulares libera metais pesados e dificulta a recuperação de materiais valiosos. Ao prolongar a vida útil e garantir o descarte correto, reduzimos a extração de recursos, economizamos energia e evitamos contaminação do solo e da água. Separe seus dispositivos antigos e encaminhe com responsabilidade.</p>
       <div class="grid stats">
         <div class="card stat"><strong>Reuso &gt; descarte</strong><span>Priorize consertar e doar.</span></div>
@@ -83,27 +161,41 @@
     </div>
   </section>
 
+  <section id="faq" class="section alt">
+    <div class="container">
+      <h2>Perguntas frequentes (FAQ)</h2>
+      <div class="card">
+        <h3>O que posso doar?</h3>
+        <p>Aceitamos celulares antigos, carregadores, cabos e baterias.</p>
+        <h3>Vocês pagam por celulares antigos?</h3>
+        <p>Sim. Avaliamos o aparelho e oferecemos um valor justo conforme o estado.</p>
+        <h3>O que acontece com celulares irrecuperáveis?</h3>
+        <p>São destinados à logística reversa certificada.</p>
+      </div>
+    </div>
+  </section>
+
   <section id="galeria" class="section alt">
     <div class="container">
       <h2>Alguns recuperados</h2>
       <div class="gallery">
-        <img src="assets/recuperados.jpg" alt="Itens recuperados pelo Maricaua Recicla" />
+        <img src="assets/recuperados.jpg" alt="Itens recuperados pelo Maricaua Recicla prontos para reuso" loading="lazy" />
       </div>
-      <p class="center">Quer ver seu aparelho aqui? <a href="https://api.whatsapp.com/send?phone=559185456734" target="_blank" rel="noopener">Fale com a gente</a>.</p>
+      <p class="center">Quer ver seu aparelho aqui? <a href="https://api.whatsapp.com/send?phone=559185456734" target="_blank" rel="noopener noreferrer">Fale com a gente</a>.</p>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
       <div class="brand">
-        <img src="assets/logo.jpg" alt="Logo Maricaua Recicla"/>
+        <img src="assets/logo.jpg" alt="Logo Maricaua Recicla" />
         <div>
           <strong>Maricaua Recicla Eletrônicos</strong>
           <small>Belém – PA • atendimento via WhatsApp</small>
         </div>
       </div>
-      <a class="btn primary" href="https://api.whatsapp.com/send?phone=559185456734&text=Olá!%20Vim%20pelo%20site" target="_blank" rel="noopener">Chamar no WhatsApp</a>
-      <p>Siga o nosso <a href="https://www.instagram.com/recicla.maricaua/" target="_blank" rel="noopener">Instagram</a> para ficar por dentro das novidades do projeto.</p>
+      <a class="btn primary" href="https://api.whatsapp.com/send?phone=559185456734&text=Ol%C3%A1!%20Vim%20pelo%20site" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+      <p>Siga o nosso <a href="https://www.instagram.com/recicla.maricaua/" target="_blank" rel="noopener noreferrer">Instagram</a> para ficar por dentro das novidades do projeto.</p>
     </div>
   </footer>
 </body>
